@@ -1,10 +1,10 @@
 body{
 	font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif;
+	background: linear-gradient(#8DC63F, #89C159, #80B963, #6CAB5D, #4D9A42, #419639);
 }
 
 #top_bar{
 	height: 15vh;
-	background-color: #8DC63F;
 	display: flex;
 	justify-content: space-between;
 }
@@ -15,7 +15,6 @@ body{
 }
 
 #flex-container{
-	background: linear-gradient(#8DC63F, #89C159, #80B963, #6CAB5D, #4D9A42, #419639);
 	display: flex;
 	flex-flow: row wrap;
 	height: 85vh;
@@ -25,6 +24,7 @@ body{
 	background: linear-gradient(#A6610C, #9F6123, #946031, #795237, #644129, #543019);
 	border-radius: 10px;
 	margin: 10px;
-	flex-grow: 1;
+	padding: 10px;
+	flex: 1;
 	text-align: center;
 }
