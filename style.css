@@ -4,27 +4,41 @@ body{
 }
 
 #top_bar{
-	height: 15vh;
+	height: 10%;
 	display: flex;
-	justify-content: space-between;
-}
-
-#top_bar * {
-	margin-left: 10px;
-	margin-right: 10px;
+	justify-content: center;
 }
 
 #flex-container{
 	display: flex;
 	flex-flow: row wrap;
-	height: 85vh;
+	height: 90%;
 }
 
-.flex-item{
+.icon-container{
 	background: linear-gradient(#A6610C, #9F6123, #946031, #795237, #644129, #543019);
 	border-radius: 10px;
 	margin: 10px;
 	padding: 10px;
+	box-shadow: 10px 10px 5px #419639;
+}
+
+.flex-item{
 	flex: 1;
-	text-align: center;
+}
+
+.row{
+	flex-flow: row wrap;
+}
+
+.column{
+	flex-flow: column wrap;
+}
+
+.button{
+	align-items: flex-end;
+}
+
+.middle{
+	align-items: center;
 }
