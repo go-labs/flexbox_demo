@@ -11,6 +11,7 @@ body{
 
 #flex-container{
 	display: flex;
+	justify-content: center;
 	flex-flow: row wrap;
 	height: 90%;
 }
